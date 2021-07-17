@@ -1,0 +1,33 @@
+:root {
+    --navbar-text-color: #fff;
+    --navbar-height: 34px;
+    --search-height: 85px;
+    --search-input-height: 41px;
+    --search-center-btn-width: 61px;
+    --border-height: 10px;
+}
+
+* {
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+
+html {
+    font-size:62.5%;
+    line-height: 1.4rem;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+}
+
+/* animation zoom */
+@keyframes ZoomIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
