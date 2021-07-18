@@ -5,6 +5,9 @@
     --search-input-height: 41px;
     --search-center-btn-width: 61px;
     --border-height: 10px;
+    --banner__big-left-height: 220px;
+    --banner__big-right-height: 107px;
+    --banner__small-height: 108px;
 }
 
 * {
